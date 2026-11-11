@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Most Reliable Players Under Pressure · RR IPL 2027</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#0f1b3d;--mut:#5b6580;--line:#e3e6ef;--pink:#e6007e;--navy:#0f1b3d;--pos:#0b8f5a;--neg:#c93a3a;--chip:#eef0f7;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--card:#141b33;--ink:#eef1fb;--mut:#a4adc9;--line:#252e4d;--pink:#ff3fa4;--pos:#3ed598;--neg:#ff7a7a;--chip:#1d2644;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1020;--card:#141b33;--ink:#eef1fb;--mut:#a4adc9;--line:#252e4d;--pink:#ff3fa4;--pos:#3ed598;--neg:#ff7a7a;--chip:#1d2644;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+header{background:linear-gradient(120deg,#0f1b3d,#2a1650 60%,#e6007e);color:#fff;border-radius:16px;padding:26px 22px}
+header small{letter-spacing:.12em;text-transform:uppercase;opacity:.8;font-size:12px}
+header h1{margin:6px 0 6px;font-size:clamp(22px,4vw,34px);line-height:1.15}
+header p{margin:0;opacity:.9;max-width:760px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.kpi b{display:block;font-size:22px;color:var(--pink)}.kpi span{color:var(--mut);font-size:12.5px}
+h2{font-size:19px;margin:26px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.card h3{margin:0 0 6px;font-size:15px}.card p{margin:0;color:var(--mut);font-size:13.5px}
+.step{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--pink);color:#fff;font-weight:700;font-size:13px;margin-right:6px}
+.tabs{display:flex;gap:8px;margin-bottom:10px}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 16px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer}
+.tabs button.on{background:var(--pink);border-color:var(--pink);color:#fff}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:13.5px}
+th{text-align:left;color:var(--mut);font-weight:600;font-size:12px;padding:8px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.row{cursor:pointer}tr.row:hover{background:var(--chip)}
+.rk{font-weight:800;color:var(--pink);font-size:16px}
+.pos{color:var(--pos);font-weight:600}.neg{color:var(--neg);font-weight:600}
+.bar{height:8px;border-radius:4px;background:var(--chip);min-width:90px}.bar i{display:block;height:100%;border-radius:4px;background:var(--pink)}
+.tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11.5px;font-weight:700;background:var(--chip)}
+.t1{background:rgba(11,143,90,.15);color:var(--pos)}.t2{background:rgba(230,0,126,.13);color:var(--pink)}.t3{background:var(--chip);color:var(--mut)}
+.fit{display:none}.fit td{background:var(--chip);font-size:13.5px}
+.fit.open{display:table-row}
+svg{width:100%;height:auto;display:block}
+.note{color:var(--mut);font-size:12.5px;margin-top:8px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+footer{color:var(--mut);font-size:12.5px;margin:24px 0 12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<small>SupeRR Selector Season 2 · Round 1</small>
+<h1>Most Reliable Players Under Pressure</h1>
+<p>A win-probability model of 187,330 IPL and T20I deliveries (2022–26) ranks the batters and bowlers Rajasthan Royals should back at the IPL 2027 mini-auction (16 December 2026, Goa).</p>
+</header>
+
+<div class="kpis">
+<div class="kpi"><b>784</b><span>matches analysed</span></div>
+<div class="kpi"><b>187,330</b><span>deliveries (IPL + T20I)</span></div>
+<div class="kpi"><b>20.6%</b><span>deliveries flagged as pressure</span></div>
+<div class="kpi"><b>0.80</b><span>win-probability AUC (cross-validated)</span></div>
+<div class="kpi"><b>77 / 92</b><span>eligible batters / bowlers</span></div>
+</div>
+
+<h2>1 · The squad shortlist</h2>
+<div class="tabs"><button id="tb" class="on">Top 10 batters</button><button id="tw">Top 10 bowlers</button></div>
+<div class="card scroll"><table id="tbl"></table></div>
+<p class="note">Value = runs above an average player in the identical situation, per 100 balls (wickets converted to runs). Blended estimate = final shrunk estimate of true pressure ability. Click a row for the Rajasthan Royals fit. Availability tags are media projections ahead of the 17 November retention deadline, not confirmed lists.</p>
+
+<h2>2 · Baseline versus pressure</h2>
+<div class="two">
+<div class="card"><h3>Pressure value vs usual level</h3><div id="sc"></div><p class="note">Above the diagonal = better under pressure than usual. Pink = top 10, selected role.</p></div>
+<div class="card"><h3>Blended pressure estimate (per 100 balls)</h3><div id="bars"></div></div>
+</div>
+
+<h2>3 · Methodology in four steps</h2>
+<div class="grid">
+<div class="card"><h3><span class="step">1</span>Define pressure</h3><p>Two win-probability models give each delivery a leverage index (expected swing in win chance). Chase pressure = leverage at least 1.5× average (26% of chase balls). First innings pressure = a collapse, wickets at least 1 SD above par for the over (15.6%).</p></div>
+<div class="card"><h3><span class="step">2</span>Measure against par</h3><p>Every ball is compared with the league outcome in the same innings, phase, pace/spin, wickets bucket and pressure state. Wickets are worth 13.4 runs in the powerplay, 9.7 in the middle, 5.3 at the death.</p></div>
+<div class="card"><h3><span class="step">3</span>Blend and shrink</h3><p>Empirical-Bayes blend of each player’s pressure record and usual level, weighted by precision. Small samples are pulled to the mean. Consistency (share of matches with positive impact) adds 30% of the score.</p></div>
+<div class="card"><h3><span class="step">4</span>Stress-test</h3><p>Scores are averaged over four pressure definitions (base, stricter, looser, chase-only). IPL balls weigh 1.0; T20Is 0.8, or 0.4 against Associates. Eligibility: ≥80 pressure balls (bat) or ≥60 (bowl), ≥40 in the IPL, active since 2025.</p></div>
+</div>
+
+<h2>4 · Why the definition works</h2>
+<div class="two">
+<div class="card"><h3>Leverage by over, chase (1.0 = average)</h3><div id="lev"></div></div>
+<div class="card"><h3>What the data says</h3>
+<p>• In the highest-leverage chase moments the league wicket rate is <b>7.3%</b> versus about 5% elsewhere, and batters score 1.49 runs a ball versus 1.35–1.38.</p>
+<p style="margin-top:8px">• In first-innings collapses scoring falls to 0.98–1.25 runs a ball versus 1.40–1.73 in normal states of the same phase.</p>
+<p style="margin-top:8px">• <b>No pressure-specific skill beyond overall quality was detectable.</b> Odd/even-match tests: batters pressure→pressure r = 0.20, baseline→pressure 0.14; bowlers 0.08 and 0.19. Treat the list as a ranked shortlist with overlapping uncertainty.</p></div>
+</div>
+
+<h2>5 · Auction plan for Rajasthan Royals</h2>
+<div class="grid">
+<div class="card"><h3>Context</h3><p>RR finished fourth in IPL 2026 and are expected to keep a young Indian core of Vaibhav Sooryavanshi, Yashasvi Jaiswal and Dhruv Jurel. Retention and release lists are due 17 November; the final auction list follows on 3 December.</p></div>
+<div class="card"><h3>Tier 1 · Priority bids</h3><p>Players ranked high under all or most definitions and not projected to be retained: Suryakumar Yadav, Tim David, Kohli, Hazlewood, Narine, Rashid Khan. Re-check against the lists on 17 November.</p></div>
+<div class="card"><h3>Tier 2 · Contingency</h3><p>Top-ranked but likely retained: Klaasen, Abhishek Sharma, Rinku Singh, Varun Chakravarthy, Shreyas Iyer. Watch for surprise releases or trades. Mustafizur’s eligibility is unresolved.</p></div>
+<div class="card"><h3>Caution flags</h3><p>Bumrah is selected on baseline, not pressure results. Iyer, Salt, Buttler, Kuldeep and Varun are top-10 under only 1–2 of 4 definitions. Hasaranga, released by RR before IPL 2026, rates well in T20Is but only at par in IPL pressure.</p></div>
+</div>
+
+<footer>Limitations: no team-strength, venue or pitch adjustment; extras runs inferred from match margins; T20I weights are a judgement call; samples of 200–500 pressure balls leave wide uncertainty. Public context from news reports, November 2026.</footer>
+</div>
+<script>
+var B=[["Heinrich Klaasen",270,"156.3","30.0",44.5,33.6,29.6,"67% (20)","5/5","t2","Likely retained (SRH)","Elite middle-order finisher: 156 SR and a dismissal only every 30 pressure balls, positive in all five seasons. Contingency bid if SRH release or trade."],
+["Rinku Singh",305,"137.4","50.8",37.4,15.4,24.7,"77% (27)","5/5","t2","Likely retained (KKR)","The most durable batter: one dismissal per 51 pressure balls and the highest share of positive matches. A chase finisher; contingency if available."],
+["Abhishek Sharma",289,"196.5","18.1",45.3,33.4,24.5,"72% (28)","3/5","t2","Likely retained (SRH)","Explosive at 196 SR, but dismissed every 18 balls and drops out of the top 10 under the stricter definition. High-ceiling opener, higher variance."],
+["Suryakumar Yadav",521,"148.9","26.1",26.8,31.5,22.8,"70% (43)","4/5","t1","Check 17 Nov lists","Largest sample (521 pressure balls, 43 matches) and top-10 under all four definitions. IPL +41 per 100; a dependable No. 3–4."],
+["Tim David",365,"160.6","20.3",26.1,40.1,22.2,"64% (29)","3/5","t1","Check 17 Nov lists","Best baseline of the group (+40) and a 161 SR finisher. Lower consistency floor, so best used as a finisher, not an anchor."],
+["Virat Kohli",264,"147.0","44.0",38.2,19.1,24.1,"68% (18)","4/5","t1","Check 17 Nov lists","Anchor profile: one dismissal per 44 pressure balls, IPL +45 per 100 (T20I +9). Steadies a collapse."],
+["Sai Sudharsan",196,"151.0","39.2",39.6,24.7,24.3,"70% (16)","4/5","t1","Check 17 Nov lists","Top-order anchor with strong IPL pressure value, but a smaller IPL-only sample and weaker under the stricter definition."],
+["Shreyas Iyer",395,"148.6","30.4",28.6,15.7,19.4,"68% (30)","3/4","t3","Likely retained (PBKS)","Big sample but top-10 under only one of four definitions. Depth option, not a priority."],
+["Phil Salt",198,"161.9","28.1",31.1,33.9,21.1,"68% (18)","3/4","t3","Check 17 Nov lists","Powerful 162 SR opener, but only 80 IPL pressure balls, so the rating leans on T20Is."],
+["Jos Buttler",251,"163.8","22.8",34.1,20.6,19.9,"68% (18)","3/4","t3","Check 17 Nov lists","164 SR and IPL +50 per 100, yet top-10 under only one definition. Depth option."]];
+var W=[["Josh Hazlewood",305,"7.73","10.9",48.1,18.1,13.7,"59% (25)","4/4","t1","Check 17 Nov lists","The strike bowler under pressure: a wicket every 10.9 balls and positive in all four seasons. Top-two under three of four definitions."],
+["Mustafizur Rahman",344,"7.01","20.2",14.9,18.6,11.8,"60% (26)","4/4","t2","Eligibility unclear","Economy 7.0 and positive every season, but his small IPL pressure sample (86 balls) is negative and Bangladeshi availability is unresolved."],
+["Sunil Narine",374,"6.08","17.8",21.2,9.2,8.1,"69% (28)","3/5","t1","Check 17 Nov lists","Economy 6.08 over 374 IPL pressure balls, top-10 under all four definitions. A control bowler for the middle overs."],
+["Matheesha Pathirana",243,"8.62","13.5",14.6,15.3,9.2,"59% (18)","2/5","t2","Check 17 Nov lists","Takes wickets (one per 13.5 balls) but leaks runs and is positive in only two of five seasons. High variance."],
+["Wanindu Hasaranga",433,"7.34","11.7",30.2,15.1,12.1,"59% (30)","4/5","t2","Released by RR before 2026","+30 per 100 with a wicket every 11.7 balls, driven by T20Is (+72); IPL pressure about par. A re-signing case, not a certainty."],
+["Jasprit Bumrah",361,"7.60","24.1",-1.7,31.3,16.1,"44% (28)","2/4","t3","Check 17 Nov lists","Selected on an elite baseline (+31) while his own pressure results are only at par. The most model-dependent pick."],
+["Rashid Khan",506,"6.15","16.9",21.2,6.7,7.3,"61% (37)","4/5","t1","Check 17 Nov lists","Economy 6.15 over 506 pressure balls, the biggest bowling sample. Top-10 under all four definitions."],
+["Kuldeep Yadav",403,"6.83","14.4",19.1,7.0,6.3,"60% (26)","5/5","t3","Check 17 Nov lists","Positive in all five seasons, but top-10 under only two definitions. Spin depth."],
+["Bhuvneshwar Kumar",372,"8.55","16.2",18.7,13.9,10.0,"49% (31)","2/5","t3","Check 17 Nov lists","Lowest consistency among the selected bowlers (49% positive spells) and an economy of 8.55. Depth only."],
+["Varun Chakravarthy",504,"5.98","17.4",14.8,9.4,7.5,"60% (38)","4/5","t3","Likely retained (KKR)","Best pressure economy of the group (5.98) over 504 balls; top-10 under only two definitions."]];
+var role="b",open=-1,tbl=document.getElementById("tbl");
+var tl={t1:"Priority bid",t2:"Contingency",t3:"Depth / watch"};
+function f(v){return (v>0?"+":"")+v.toFixed(1)}
+function cls(v){return v>=0?"pos":"neg"}
+function render(){
+var D=role=="b"?B:W,mx=Math.max.apply(null,D.map(function(d){return d[6]}));
+var h="<tr><th>#</th><th>Player</th><th>Pressure balls</th><th>"+(role=="b"?"SR":"Econ")+"</th><th>"+(role=="b"?"Balls / dismissal":"Balls / wicket")+"</th><th>Pressure value</th><th>Usual level</th><th>Blended</th><th>Positive matches</th><th>Seasons +</th><th>Action</th><th>Availability</th></tr>";
+D.forEach(function(d,i){
+h+="<tr class='row' data-i='"+i+"'><td class='rk'>"+(i+1)+"</td><td><b>"+d[0]+"</b></td><td>"+d[1]+"</td><td>"+d[2]+"</td><td>"+d[3]+"</td><td class='"+cls(d[4])+"'>"+f(d[4])+"</td><td class='"+cls(d[5])+"'>"+f(d[5])+"</td><td><div class='bar'><i style='width:"+Math.round(d[6]/mx*100)+"%'></i></div>"+f(d[6])+"</td><td>"+d[7]+"</td><td>"+d[8]+"</td><td><span class='tag "+d[9]+"'>"+tl[d[9]]+"</span></td><td>"+d[10]+"</td></tr>";
+h+="<tr class='fit"+(open==i?" open":"")+"'><td></td><td colspan='11'><b>How "+d[0].split(" ")[0]+" strengthens Rajasthan Royals:</b> "+d[11]+"</td></tr>";});
+tbl.innerHTML=h;
+tbl.querySelectorAll("tr.row").forEach(function(r){r.onclick=function(){var i=+r.getAttribute("data-i");open=open==i?-1:i;render();}});
+charts();}
+function charts(){
+var D=role=="b"?B:W,mx=Math.max.apply(null,D.map(function(d){return d[6]}));
+var s="<svg viewBox='0 0 400 "+(D.length*26+6)+"' role='img' aria-label='Blended estimate by player'>";
+D.forEach(function(d,i){var y=i*26+4,w=d[6]/mx*220;
+s+="<text x='0' y='"+(y+15)+"' font-size='12' fill='var(--ink)'>"+(i+1)+". "+d[0]+"</text><rect x='150' y='"+(y+4)+"' width='"+w+"' height='13' rx='3' fill='var(--pink)'/><text x='"+(154+w)+"' y='"+(y+15)+"' font-size='11' fill='var(--mut)'>"+f(d[6])+"</text>";});
+document.getElementById("bars").innerHTML=s+"</svg>";
+var lo=Math.min(-10,Math.min.apply(null,D.map(function(d){return Math.min(d[4],d[5])})))-3,hi=Math.max.apply(null,D.map(function(d){return Math.max(d[4],d[5])}))+3;
+var X=function(v){return 40+(v-lo)/(hi-lo)*340},Y=function(v){return 230-(v-lo)/(hi-lo)*210};
+var c="<svg viewBox='0 0 400 260' role='img' aria-label='Pressure vs baseline'><line x1='"+X(lo)+"' y1='"+Y(lo)+"' x2='"+X(hi)+"' y2='"+Y(hi)+"' stroke='var(--line)' stroke-dasharray='4'/><line x1='40' y1='230' x2='380' y2='230' stroke='var(--line)'/><line x1='40' y1='20' x2='40' y2='230' stroke='var(--line)'/><text x='210' y='254' text-anchor='middle' font-size='11' fill='var(--mut)'>Usual level (runs per 100 balls)</text><text x='10' y='125' font-size='11' fill='var(--mut)' transform='rotate(-90 10 125)' text-anchor='middle'>Under pressure</text>";
+D.forEach(function(d,i){c+="<circle cx='"+X(d[5])+"' cy='"+Y(d[4])+"' r='6' fill='var(--pink)' opacity='.85'/><text x='"+(X(d[5])+8)+"' y='"+(Y(d[4])+4)+"' font-size='10' fill='var(--ink)'>"+d[0].split(" ").pop()+"</text>";});
+document.getElementById("sc").innerHTML=c+"</svg>";}
+document.getElementById("tb").onclick=function(){role="b";open=-1;this.className="on";document.getElementById("tw").className="";render();};
+document.getElementById("tw").onclick=function(){role="w";open=-1;this.className="on";document.getElementById("tb").className="";render();};
+var L=[.97,1,1.01,1.04,1.03,.99,.94,.94,.94,.97,1.04,1,1.04,1.02,1.11,1.38,1.52,1.51,1.93,2.94],ls="<svg viewBox='0 0 400 170' role='img' aria-label='Leverage by over'><line x1='20' y1='140' x2='390' y2='140' stroke='var(--line)'/>";
+L.forEach(function(v,i){var h=v/3*120;ls+="<rect x='"+(24+i*18)+"' y='"+(140-h)+"' width='13' height='"+h+"' rx='2' fill='"+(v>=1.5?"var(--pink)":"var(--chip)")+"' stroke='var(--line)'/>"+(i%5==0||i==19?"<text x='"+(24+i*18)+"' y='156' font-size='10' fill='var(--mut)'>"+(i+1)+"</text>":"");});
+document.getElementById("lev").innerHTML=ls+"<text x='260' y='22' font-size='11' fill='var(--mut)'>Pink = pressure zone (≥1.5)</text></svg>";
+render();
+</script>
+</body>
+</html>
